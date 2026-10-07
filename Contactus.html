@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <title>Contact Us - Mergui Travel Agency</title>
+    <style>
+        * { 
+
+
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {                       //background: url('zardetkyi.jpg') no-repeat ;
+
+            background-color:#f5f5f5;
+        }
+
+        /* Navigation Bar */
+        .navbar {
+            background-color: #004466;
+            padding: 15px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .nav-left {
+            color: white;
+            font-size: 22px;
+            font-weight: bold;
+        }
+
+        .nav-right {
+            display: flex;
+            gap: 15px;
+        }
+
+        .nav-right a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+            padding: 8px 12px;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+
+        .nav-right a:hover {
+            background-color: #006699;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: url('https://source.unsplash.com/1600x900/?travel,contact') no-repeat center center/cover;
+            height: 50vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: #004466;
+            padding: 20px;
+        }
+
+        .hero-content {
+            background: rgba(0, 0, 0, 0.6);
+            padding: 30px;
+            border-radius: 8px;
+        }
+
+        .hero h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        /* Contact Section */
+        .contact {
+            text-align: center;
+            padding: 40px;
+        }
+
+        .contact h2 {
+            color: #004466;
+            margin-bottom: 10px;
+        }
+
+        .contact p {
+            font-size: 16px;
+            color: #555;
+            margin-bottom: 20px;
+        }
+
+        .contact-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 30px;
+            margin-top: 20px;
+        }
+        .contact-form{
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            width: 350px;
+            text-align: left;
+        }
+
+         .contact-info {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            width: 600px;
+            text-align: left;
+        }
+
+        .contact-form h3, .contact-info h3 {
+            color: #004466;
+            margin-bottom: 10px;
+        }
+
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+
+        .contact-form button {
+            background-color: #ff6600;
+            color: white;
+            padding: 12px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+            transition: background 0.3s;
+        }
+
+        .contact-form button:hover {
+            background-color: #e65c00;
+        }
+
+        .contact-info p {
+            margin-bottom: 10px;
+            font-size: 16px;
+        }
+
+        .contact-info a {
+            text-decoration: none;
+            color: #004466;
+            font-weight: bold;
+        }
+
+        .contact-info a:hover {
+            color: #ff6600;
+        }
+
+        /* Team Section */
+        .team {
+            text-align: center;
+            padding: 50px;
+            background-color: #fff;
+        }
+
+        .team h2 {
+            color: #004466;
+            margin-bottom: 20px;
+        }
+
+        .team-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 30px;
+        }
+
+        .team-member {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            width: 250px;
+        }
+
+        .team-member img {
+            width: 150px;
+            height: 130px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+
+        .team-member h3 {
+            font-size: 18px;
+            color: #004466;
+            margin-bottom: 5px;
+        }
+
+        .team-member p {
+            font-size: 14px;
+            color: #555;
+        }
+
+            .team-member a {
+            font-size: 14px;
+            text-decoration: none;
+
+            hover:red;
+        }
+
+
+
+        /* Footer */
+        .footer {
+            background-color: #004466;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <div class="navbar">
+        <div class="nav-left">🌍 Mergui Travel Agency</div>
+
+<div class="nav-right">
+    <a href="Home.html">Home</a>
+    <a href="Islands.html">Islands</a>
+    <a href="SS.html">Services</a>
+    <a href="Contactus.html">Contact us</a>
+    <a href="Register.html">Login</a>
+    
+
+        </div>
+    </div>
+    
+
+    <!-- Hero Section -->
+    <!-- Team Section -->
+    <div class="team">
+        <h2> Our Team</h2>
+        <div class="team-container">
+            <div class="team-member">
+                <img src="lwinkotun.jpg" alt="Founder">
+                <h3>LWIN KO TUN</h3>
+                <p>Second Year-CS</p>
+ <a href="https://facebook.com" target="_blank" class="icon facebook">
+                <i class="fab fa-facebook-f"></i>&nbsp;view profile</a>
+
+            </div>
+
+            <div class="team-member">
+                <img src="naybhonethwin.jpg" alt="Tour Manager">
+                <h3>NAY BHONE THWIN</h3>
+                <p>Second Year-CS</p>
+                <a href="https://facebook.com" target="_blank" class="icon facebook">
+                <i class="fab fa-facebook-f"></i>&nbsp;view profile</a>
+
+
+            </div>
+
+            <div class="team-member">
+                <img src="who.jpg" alt="Travel Guide">
+                <h3>WIN HTIKE OO</h3>
+                <p>Second Year-CS</p>
+                 <a href="https://facebook.com" target="_blank" class="icon facebook">
+                <i class="fab fa-facebook-f"></i>&nbsp;view profile</a>
+
+
+            </div>
+            <div class="team-member">
+                <img src="kzt.jpg" alt="Tour Manager">
+                <h3>KAY ZIN THET</h3>
+                <p>Second Year-CS</p>
+                <a href="https://facebook.com" target="_blank" class="icon facebook">
+                <i class="fab fa-facebook-f"></i>&nbsp;view profile</a>
+
+
+            </div>
+
+            <div class="team-member">
+                <img src="zar.jpg" alt="Travel Guide">
+                <h3>ZAR NI MWAYE OO</h3>
+                <p>Second Year-CS</p>
+                <a href="https://facebook.com" target="_blank" class="icon facebook">
+                <i class="fab fa-facebook-f"></i>&nbsp;view profile</a>
+
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Contact Section -->
+    <div class="contact">
+        <h2>📞 Get in Touch</h2>
+        <p>Feel free to send us a message or visit our office.</p>
+        <div class="contact-container">
+
+           
+
+            <!-- Contact Info -->
+            <div class="contact-info">
+                <h1>Our Contact Details</h1><br><br>
+                <h2>📍 <strong>Address:</strong> No.123, Myeik City, Myanmar</h2><br>
+                <h2>📞 <strong>Phone:</strong> <a href="tel:+95123456789">+95 255-768-489</a></h2><br>
+                <h2> ✉ <strong>Email:</strong> <a href="mailto:contact@merguitravel.com">tunlwinko662@gmail.com</a></h2>
+                
+            </div>
+
+
+             <!-- Contact Form -->
+             <div class="contact-form">
+                <h3>Send a Message</h3>
+                <form action="#" method="POST">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <input type="tel" name="tel" placeholder="09------" required>
+                    <input type="date" name="email"  required>
+                    <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        🌴 Plan Your Dream Vacation | 📞 +95 255-768-489 | ✉ tunlwinkotun662@gmail.com
+    </div>
+
+</body>
+</html>

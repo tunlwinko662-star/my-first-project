@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Island Details</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom, #e0f7fa, #ffffff);
+            color: #333;
+        }
+        /* Navigation Bar */
+        .navbar {
+            background-color: #004466;
+            padding: 15px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .nav-left {
+            color: white;
+            font-size: 22px;
+            font-weight: bold;
+        }
+
+        .nav-right {
+            display: flex;
+            gap: 15px;
+        }
+
+        .nav-right a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+            padding: 8px 12px;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+
+        .nav-right a:hover {
+            background-color: #006699;
+        }
+        
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .main-photo {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .text-section {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin: 40px 0;
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .text-section img {
+            width: 45%;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .text-section p {
+            width: 50%;
+            padding: 15px;
+            text-align: justify;
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+
+        .reverse {
+            flex-direction: row-reverse;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .gallery img {
+            width: 400px;height:300px;
+            border-radius: 10px;
+            transition: transform 0.3s ease-in-out;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+
+        
+
+        /* Footer */
+        .footer {
+            background-color: #004466;
+            color: white;
+            text-align: center;
+            padding: 15px;}
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <div class="navbar">
+        <div class="nav-left">🌍 Mergui Travel Agency</div>
+
+<div class="nav-right">
+           <a href="Home.html">Home</a>
+            <a href="Islands.html">Islands</a>
+            <a href="servics.html">Services</a>
+            <a href="SS.html">Contact us</a>
+            <a href="Register.html">Register</a>
+
+        </div>
+    </div>
+    <div class="container">
+        <h1>Wa Ale Island</h1>
+        <img src="Wa-Ale.jpg" alt="Island Image" class="main-photo">
+
+        <div class="text-section">
+            <img src="wamap.webp" alt="Map">
+            <p>Wa Ale Island is located in the Mergui Archipelago, Kawthaung District, Tanintharyi Region, Myanmar. It lies within the protected area of Lampi Marine National Park, making it one of the most pristine and eco-friendly islands in the reg.</p>
+        </div>
+
+        <div class="text-section reverse">
+            <img src="wa4.jpg" alt="Underwater">
+            <p>Luxury Eco-Resort (Wa Ale Resort) – The island is home to an exclusive eco-resort, which follows sustainable tourism practices. It is one of the most luxurious yet environmentally conscious resorts in Myanmar.
+               <br> 2. Untouched Beaches & Crystal-Clear Waters – The island offers white sandy beaches, hidden coves, and clear waters perfect for snorkeling and diving.
+               <br> 3. Lush Tropical Forests & Wildlife – As part of Lampi Marine National Park, the island is rich in biodiversity, including sea turtles, hornbills, and rare marine species.
+               <br> 4. Diving & Snorkeling – Visitors can explore coral reefs, caves, and diverse marine life.
+                <br>5. Sea Turtle Conservation – The island supports a turtle conservation program, protecting species like the Green Turtle and Hawksbill Turtle..</p>
+        </div>
+
+        <h2>Gallery</h2>
+        <div class="gallery">
+            <img src="wa1.jpg" alt="Gallery 1">
+            <img src="wa2.jpg" alt="Gallery 2">
+            <img src="wa3.webp" alt="Gallery 3">
+        </div>
+    </div>
+    <div class="footer">
+        🌴 Plan Your Dream Vacation | 📞 +95 255-768-489 | ✉ tunlwinko662@gmail.com
+    </div>
+    
+</body>
+</html>

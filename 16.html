@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Island Details</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom, #e0f7fa, #ffffff);
+            color: #333;
+        }
+        /* Navigation Bar */
+        .navbar {
+            background-color: #004466;
+            padding: 15px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .nav-left {
+            color: white;
+            font-size: 22px;
+            font-weight: bold;
+        }
+
+        .nav-right {
+            display: flex;
+            gap: 15px;
+        }
+
+        .nav-right a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+            padding: 8px 12px;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+
+        .nav-right a:hover {
+            background-color: #006699;
+        }
+        
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .main-photo {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .text-section {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin: 40px 0;
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .text-section img {
+            width: 45%;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .text-section p {
+            width: 50%;
+            padding: 15px;
+            text-align: justify;
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+
+        .reverse {
+            flex-direction: row-reverse;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .gallery img {
+            width: 400px;height:300px;
+            border-radius: 10px;
+            transition: transform 0.3s ease-in-out;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+
+        
+
+        /* Footer */
+        .footer {
+            background-color: #004466;
+            color: white;
+            text-align: center;
+            padding: 15px;}
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <div class="navbar">
+        <div class="nav-left">🌍 Mergui Travel Agency</div>
+
+<div class="nav-right">
+           <a href="Home.html">Home</a>
+            <a href="Islands.html">Islands</a>
+            <a href="servics.html">Services</a>
+            <a href="Contactus.html">Contact us</a>
+            <a href="Register.html">Register</a>
+
+        </div>
+    </div>
+    <div class="container">
+        <h1>Say Tan Island</h1>
+        <img src="saytan.jpg" alt="Island Image" class="main-photo">
+
+        <div class="text-section">
+            <img src="saymap.png" alt="Map">
+            <p>Say Tan Island is part of the Mergui Archipelago, located in Kawthaung District, Tanintharyi Region, Myanmar. It is known for its beautiful beaches, clear waters, and excellent opportunities for diving and fishing.</p>
+        </div>
+
+        <div class="text-section reverse">
+            <img src="say1.jpg" alt="Underwater">
+            <p>Ideal for Diving & Snorkeling – Say Tan Island is a great spot for underwater exploration, with vibrant coral reefs and rich marine biodiversity.
+               <br> 2. Fishing Opportunities – The island is popular among local and international fishing enthusiasts, offering a chance to catch various fish species.
+               <br> 3. Peaceful Beach Getaway – Say Tan Island is less crowded, making it a perfect spot for travelers looking for a quiet and relaxing escape.
+               <br> 4. Clear Blue Waters & White Sandy Beaches – The island’s coastline is pristine, with clear turquoise water and soft sand.</p>
+        </div>
+
+        <h2>Gallery</h2>
+        <div class="gallery">
+            <img src="say2.jpg" alt="Gallery 1">
+            <img src="say3.jpg" alt="Gallery 2">
+            <img src="say4.jpg" alt="Gallery 3">
+        </div>
+    </div>
+    <div class="footer">
+        🌴 Plan Your Dream Vacation | 📞 +95 255-768-489 | ✉ tunlwinko662@gmail.com
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top Destinations - Myeik Travel</title>
+    <style>
+        
+
+        body { 
+        background-color: #f5f5f5;
+        font-family: Arial, sans-serif;
+        margin:0;
+        
+         }
+
+        .navbar {
+         background-color: #004466;
+          padding: 15px 20px; 
+          display: flex; 
+          justify-content: space-between; 
+          align-items: center; }
+
+
+        .nav-left {
+         color: white; 
+         font-size: 22px;
+          font-weight: bold; }
+
+        .nav-right {
+         display: flex; gap: 15px; }
+
+        .nav-right a { 
+        color: white;
+         text-decoration: none;
+          font-size: 16px;
+           padding: 8px 12px;
+            border-radius: 5px;
+             transition: background 0.3s; }
+
+        .nav-right a:hover { 
+        background-color: #006699; }
+
+        .hero {
+            background: url("Wa-Ale.jpg") no-repeat center center/cover;
+
+            
+         height: 50vh; 
+         display: flex; 
+         align-items: center;
+          justify-content: center;
+           text-align: center;
+            color: white;
+         padding: 20px; }
+
+        .hero-content {
+            
+         background:;
+           color:#004466;
+          padding: 30px;
+           border-radius: 8px;
+           margin:2px;        
+ }
+
+        .hero h1 {
+         font-size: 50px;
+          margin-bottom: 10px; }
+
+          .content {
+    padding: 20px;
+    text-align: center;
+    margin: 0;
+}
+
+
+        .hero p { 
+        font-size: 30px; }
+
+
+
+        .destinations {
+         padding: 50px;
+          text-align: center; }
+
+        .destinations h2 { 
+        color: #004466;
+         margin-bottom: 20px; }
+          
+                 .destinations-container { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; padding: 0 20px; }
+
+        
+        .destination {
+         background: white;
+          padding: 20px; 
+          border-radius: 8px;
+           box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center; }
+
+        .destination img {
+         width: 100%; 
+         height: 180px;
+          border-radius: 8px;
+           object-fit: cover; }
+
+        .destination h3 {
+         font-size: 20px; 
+         color: #004466;
+          margin-top: 10px; }
+
+        .destination p { 
+        font-size: 14px;
+         color: #555;
+          margin-top: 5px;
+           margin-bottom: 10px; }
+
+        .price { 
+          font-size: 16px;
+           font-weight: bold; 
+           color: #ff6600; 
+           margin-top: 5px; }
+
+        .destination button { 
+            background-color: #ff6600; 
+            color: white; padding: 10px;
+             font-size: 14px;
+              border: none;
+               border-radius: 5px;
+                cursor: pointer; 
+                transition: background 0.3s; }
+
+        .destination button:hover {
+             background-color: #e65c00; }
+
+        .footer {
+             background-color: #004466;
+              color: white; 
+              text-align: center;
+               padding: 15px;
+                margin-top: 20px; }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <div class="navbar">
+        <div class="nav-left">🌍 Mergui Travel Agency</div>
+        <div class="nav-right">
+            <a href="Home.html">Home</a>
+            <a href="Islands.html">Islands</a>
+            <a href="SS.html">Services</a>
+            <a href="Contactus.html">Contact us</a>
+            <a href="Register.html">Login</a>
+            
+    
+        </div>
+    </div>
+<!-- Hero Section -->
+    <div class="hero">
+        <div class="hero-content">
+            <form class="search-form">
+                <input type="text" placeholder="Search..." name="search" width="400px" height="30px">
+                <button type="submit" >🔍</button>
+             </form>
+        </div>
+</div>
+   
+    
+
+    <!-- Destinations Section -->
+    <div class="destinations">
+        <h1>Popular  Islands  in Mergui Archipelago</h1>
+            <p>Discover the most breathtaking places in the Mergui Archipelago </p>
+
+        <div class="destinations-container">
+            
+            <!-- 30 Islands with Prices -->
+            <div class="destination"><img src="nyaungoophee.jpg" alt="Nyaung Oo Phee"><h3>Nyaung Oo Phee Island</h3><p>A paradise for divers and snorkelers<br>2days1night trip=13000฿(for one person)</p><p class="price"></p><a href="1.html" class="back-link">Explore Now</a></div>
+            <div class="destination"><img src="doung.jpg" alt="Daung Island"><h3>Doung Island</h3><p>A hidden gem perfect for adventure seekers<br>2days1night trip=11000฿(for one person)</p><p class="price"></p><a href="2.html" class="back-link">Explore Now</a></div>
+            <div class="destination"><img src="smart.jpg" alt="Smart Island"><h3>Smart Island</h3><p>Pristine beach with turquoise blue water <br>1day trip=10000฿(for one person)</p><p class="price"></p><a href="3.html" class="back-link">Explore Now</a></div>
+            <div class="destination"><img src="zardetkyi.jpg" alt="bruer island"><h3>Bruer Island</h3><p>Famous for snorkeling and white sandy beaches.<br>3day2night trip=12000฿(for one person)</p><p class="price"></p><a href="4.html" class="back-link">Explore Now</a></div>
+            <div class="destination"><img src="lampi.jpg" alt="Lampi island"><h3>Lampi Island</h3><p>Home to Lampi Marine National Park<br>2days1night trip=10000฿(for one person)</p><p class="price"></p><a href="5.html" class="back-link">Explore Now</a></div>
+            <div class="destination"><img src="salon.jpg" alt="Salone Island"><h3>Salone Island</h3><p>Experience the culture of the Moken(Sea Gypsies)<br>2days1night trip=11000฿(for one person)</p><p class="price"></p><a href="6.html" class="back-link">Explore Now</a></div>
+            <div class="destination"><img src="money.jpg" alt="kyet mauk  Island"><h3>Kyet Mauk island</h3><p>Famous for snorkeling and white sandy beaches.<br>3day2night trip=14000฿(for one person)</p><p class="price"></p><a href="7.html" class="back-link">Explore Now</a></div>
+            <div class="destination"><img src="onefive.jpeg" alt="115 Island"><h3>115 Island</h3><p>Pristine beach with turquoise blue water.<br>1day trip=10000฿(for one person)</p><p class="price"></p><a href="8.html" class="back-link">Explore Now</a></div>
+            <div class="destination"><img src="Than-Kyan.jpg" alt="Than-Kyan Island"><h3>ThanKyan Island</h3><p>Rich in local fishing traditions<br>1day trip=10000฿(for one person)</p><p class="price"></p><a href="9.html" class="back-link">Explore Now</a></div>
+            <div class="destination"><img src="fen lone.jpg" alt="fen lone Island"><h3>Fen Lone Island</h3><p>Perfect for sunset views and photography<br>1day trip=9000฿(for one person)</p><p class="price"></p><a href="10.html" class="back-link">Explore Now</a></div>
+            <div class="destination"><img src="thahtay.jpg" alt=" Ishahtayland"><h3>ThaHtay Island</h3><p>Famous for snorkeling and white sandy beaches.<br>3day2night trip=16000฿(for one person)</p><p class="price"></p><a href="11.html" class="back-link">Explore Now</a></div>
+            <div class="destination"><img src="macleod.jpg" alt="MacLeod Island"><h3>MacLeod Island</h3><p>Features an eco-resort and untouched nature<br>2days1night trip=13000฿(for one person)</p><p class="price"></p><a href="12.html" class="back-link">Explore Now</a></div>
+            <div class="destination"><img src="bocho.jpg" alt="Bocho Island"><h3>Bocho Island</h3><p>Famous for snorkeling and white sandy beaches<br>1day trip=10000฿(for one person)</p><p class="price"></p><a href="13.html" class="back-link">Explore Now</a></div>
+            <div class="destination"><img src="Wa-Ale.jpg" alt="WA ALE Island"><h3>Wa Ale Island</h3><p>A secluded,tranquil island with crystal-clear waters<br>2days1night trip=11000฿(for one person)</p><p class="price"></p><a href="14.html" class="back-link">Explore Now</a></div>
+            <div class="destination"><img src="kyun phi lar.jpg" alt="kyun phi lar Island"><h3>Kyun Phi Lar Island</h3><p>Popular for traditional fishing activities<br>2days1night trip=13000฿(for one person)</p><p class="price"></p><a href="15.html" class="back-link">Explore Now</a></div>
+            <div class="destination"><img src="saytan.jpg" alt="Say Tan Island"><h3>Say Tan Island</h3><p>Great for diving and fishing<br>1day trip=10000฿(for one person)</p><p class="price"></p><a href="16.html" class="back-link">Explore Now</a></div>
+            <div class="destination"><img src="zar1.jpg" alt="Marcus Island"><h3>Zardetkyi Island</h3><p>A hidden gem with lush forests and golden beaches<br>2days1night trip=12000฿(for one person)</p><p class="price"></p><a href="17.html" class="back-link">Explore Now</a></div>
+            <div class="destination"><img src="char1.jpg" alt="Sinma Island"><h3>Christie Island</h3><p>A favorite among fishing enthusiasts<br>1day trip=10000฿(for one person)</p><p class="price"></p><a href="18.html" class="back-link">Explore Now</a></div>
+            <div class="destination"><img src="pyinsa3.jpg" alt="mari Bay Island"><h3>Pyin Sa Island</h3><p>A quiet retreat with no electricity,offering a unique experience<br>3day2night trip=16000฿(for one person)</p><p class="price"></p><a href="19.html" class="back-link">Explore Now</a></div>
+            <div class="destination"><img src="nyaung_wee.jpg" alt="Nyaung WEE Island"><h3>Nyaung Wee Island</h3><p>Stunning rock formations and sandy shores<br>4days3nights trip=17000฿(for one person)</p><p class="price"></p><a href="20.html" class="back-link">Explore Now</a></div>
+            
+            
+
+
+
+
+
+        </div>
+
+        
+
+    <!-- Footer -->
+    <div class="footer">
+        🌴 Book Your Adventure Now | 📞 +95 255-768-489 | ✉ tunlwinko662@gmail.com
+    </div>
+
+</body>
+</html>

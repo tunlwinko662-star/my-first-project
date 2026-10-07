@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Island Details</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom, #e0f7fa, #ffffff);
+            color: #333;
+        }
+        /* Navigation Bar */
+        .navbar {
+            background-color: #004466;
+            padding: 15px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .nav-left {
+            color: white;
+            font-size: 22px;
+            font-weight: bold;
+        }
+
+        .nav-right {
+            display: flex;
+            gap: 15px;
+        }
+
+        .nav-right a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+            padding: 8px 12px;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+
+        .nav-right a:hover {
+            background-color: #006699;
+        }
+        
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .main-photo {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .text-section {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin: 40px 0;
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .text-section img {
+            width: 45%;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .text-section p {
+            width: 50%;
+            padding: 15px;
+            text-align: justify;
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+
+        .reverse {
+            flex-direction: row-reverse;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .gallery img {
+            width: 400px;height:300px;
+            border-radius: 10px;
+            transition: transform 0.3s ease-in-out;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+
+        
+
+        /* Footer */
+        .footer {
+            background-color: #004466;
+            color: white;
+            text-align: center;
+            padding: 15px;}
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <div class="navbar">
+        <div class="nav-left">🌍 Mergui Travel Agency</div>
+
+<div class="nav-right">
+           <a href="Home.html">Home</a>
+            <a href="Islands.html">Islands</a>
+            <a href="SS.html">Services</a>
+            <a href="Contactus.html">Contact us</a>
+            <a href="Register.html">Register</a>
+
+        </div>
+    </div>
+    <div class="container">
+        <h1> Kyun Phi Lar Island</h1>
+        <img src="kyun phi lar.jpg" alt="Island Image" class="main-photo">
+
+        <div class="text-section">
+            <img src="lammap.png" alt="Map">
+            <p>Kyun Phi Lar Island, also known as Pila Island, is located in the Mergui Archipelago, Kawthaung District, Tanintharyi Region, Myanmar. It is one of the largest and most beautiful islands in the archipelago, known for its untouched beaches and diverse marine life.</p>
+        </div>
+
+        <div class="text-section reverse">
+            <img src="lar3.jpg" alt="Underwater">
+            <p>White Sandy Beaches & Crystal-Clear Waters – The island is surrounded by pristine beaches with powdery white sand and turquoise blue waters, making it a perfect getaway for relaxation.
+               <br> 2. Great for Snorkeling & Diving – The coral reefs around Kyun Phi Lar are teeming with colorful marine life, including clownfish, parrotfish, and even reef sharks.
+               <br> 3. Traditional Fishing Activities – The island is popular for local fishing culture, where visitors can see or participate in traditional Moken (Sea Gypsy) fishing methods.
+                <br>4. Dense Tropical Forests & Wildlife – The island has lush rainforests home to various wildlife species, including hornbills and monkeys.
+               <br> 5. Eco-Tourism Destination – With minimal development, the island remains a natural paradise for adventure seekers and nature lovers.
+                </p>
+        </div>
+
+        <h2>Gallery</h2>
+        <div class="gallery">
+            <img src="lar4.jpg" alt="Gallery 1">
+            <img src="lar1.jpg" alt="Gallery 2">
+            <img src="lar2.jpg" alt="Gallery 3">
+        </div>
+    </div>
+    <div class="footer">
+        🌴 Plan Your Dream Vacation | 📞 +95 255-768-489 | ✉ tulwinko662@gmail.com
+    </div>
+    
+</body>
+</html>
